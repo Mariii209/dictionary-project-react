@@ -1,4 +1,5 @@
 import "./App.css";
+import DictionarySearch from "./DictionarySearch";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           alt=""
           className="img-fluid w-25"
         />
+        <DictionarySearch />
       </header>
     </div>
   );
