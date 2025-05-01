@@ -1,0 +1,20 @@
+.App .SheCodeLogo {
+  margin: 20px 0 0 20px;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1px lightgray solid;
+}
+
+section {
+  background-color: #53dae7;
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+}

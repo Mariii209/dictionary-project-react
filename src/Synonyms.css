@@ -1,0 +1,14 @@
+.Synonyms li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li:not(:last-child)::after {
+  content: ",";
+  margin-right: 5px;
+}
+
+.Synonyms div {
+  margin: 5px 0;
+  font-size: 13px;
+}

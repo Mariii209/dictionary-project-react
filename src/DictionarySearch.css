@@ -1,0 +1,18 @@
+.SearchSection .SearchBar {
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0 15px 0;
+}
+
+.SearchSection .SearchSubmit {
+  height: 50px;
+  width: 90px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+}

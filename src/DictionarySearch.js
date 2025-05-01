@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import DefinitionDisplay from "./DefinitionDisplay";
+import "./DictionarySearch.css";
 
 export default function DictionarySearch() {
   const [searchInput, setSearchInput] = useState("");
@@ -24,10 +25,17 @@ export default function DictionarySearch() {
 
   return (
     <div className="DictionarySearch">
-      <form onSubmit={handleSearch}>
-        <input type="search" value={searchInput} onChange={handleInputChange} />
-        <input type="submit" value="Search" />
-      </form>
+      <section className="SearchSection">
+        <form onSubmit={handleSearch}>
+          <input
+            className="SearchBar"
+            type="search"
+            value={searchInput}
+            onChange={handleInputChange}
+          />
+          <input type="submit" value="Search" className="SearchSubmit" />
+        </form>
+      </section>
       <DefinitionDisplay result={result} />
     </div>
   );
