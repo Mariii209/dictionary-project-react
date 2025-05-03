@@ -10,11 +10,7 @@
 
 section {
   background-color: #53dae7;
-  max-width: 600px;
-  margin: 20px auto;
+  margin-top: 32px;
   margin-bottom: 50px;
-  padding: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  border-radius: 10px;
+  padding: 30px;
 }
