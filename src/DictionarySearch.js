@@ -47,6 +47,7 @@ export default function DictionarySearch() {
             className="SearchBar"
             type="search"
             value={searchInput}
+            placeholder="Search a word...."
             onChange={handleInputChange}
           />
           <input type="submit" value="Search" className="SearchSubmit" />
