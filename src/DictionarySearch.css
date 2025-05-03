@@ -19,4 +19,5 @@
 
 .SearchSection {
   display: flex;
+  justify-content: center;
 }
