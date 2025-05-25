@@ -1,21 +1,4 @@
-.App .SheCodeLogo {
-  margin: 20px 0 0 20px;
-}
-
 .App {
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-section {
-  background-color: #53dae7;
-  margin-top: 32px;
-  margin-bottom: 50px;
-  padding: 30px;
-}
-
-@media (max-width: 430px) {
-  .App .SheCodeLogo {
-    display: none;
-  }
+  background-color: rgba(83, 218, 231, 0.5);
+  min-height: 100vh;
 }

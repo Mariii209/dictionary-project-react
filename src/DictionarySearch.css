@@ -1,19 +1,48 @@
+.DictionarySearch {
+  margin: 0 auto;
+}
+
+.SearchEngine {
+  margin-bottom: 30px;
+}
+
+.WordBank {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 70px 0;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: -2px -3px 8px rgba(0, 0, 0, 0.6);
+}
+
+.SearchSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a9ecf3;
+  padding: 30px;
+}
+
 .SearchSection .SearchBar {
-  height: 50px;
-  width: 350px;
-  border-radius: 10px;
-  border: none;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 0 15px 0;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #53dae7;
+  outline: none;
+  width: 300px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(83, 218, 231, 0.2);
 }
 
 .SearchSection .SearchSubmit {
   height: 50px;
-  width: 90px;
+  width: 100px;
   margin-left: 10px;
   border-radius: 10px;
-  border: none;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: 2px solid #53dae7;
+  box-shadow: 0 0 10px rgba(83, 218, 231, 0.2);
   background-color: white;
 }
 
@@ -40,6 +69,10 @@
     margin-left: 5px;
     color: black;
     padding: 0;
-    font-weight: 400;
+  }
+
+  .WordBank {
+    font-size: 50px;
+    margin: 60px 0 70px;
   }
 }

@@ -27,7 +27,7 @@ export default function DictionarySearch() {
 
     const pexelsApiKey =
       "WsWu1zSPVbqyBDYCsFuOOeeEqElj7K2aXbHh9ikHnfRhVWIywFEGmrIx";
-    const pexelsApi = `https://api.pexels.com/v1/search?query=${searchInput}&per_page=9`;
+    const pexelsApi = `https://api.pexels.com/v1/search?query=${searchInput}&per_page=6`;
     axios
       .get(pexelsApi, {
         headers: { Authorization: pexelsApiKey },
@@ -41,8 +41,11 @@ export default function DictionarySearch() {
 
   return (
     <div className="DictionarySearch">
-      <section className="SearchSection">
-        <form onSubmit={handleSearch}>
+      <div className="SearchSection">
+        <div>
+          <h1 className="WordBank">Word Bank</h1>
+        </div>
+        <form className="SearchEngine" onSubmit={handleSearch}>
           <input
             className="SearchBar"
             type="search"
@@ -52,7 +55,7 @@ export default function DictionarySearch() {
           />
           <input type="submit" value="Search" className="SearchSubmit" />
         </form>
-      </section>
+      </div>
       <DefinitionDisplay result={result} />
       <DefinitionPhoto photos={photo} />
     </div>

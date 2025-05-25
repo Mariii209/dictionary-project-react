@@ -3,7 +3,7 @@ import React from "react";
 export default function DefinitionPhoto(props) {
   if (props.photos) {
     return (
-      <div className="DefinitionPhoto row ms-3 me-3 ">
+      <div className="DefinitionPhoto row ms-3 me-3 mt-3 mb-3">
         {props.photos.map(function (photo, index) {
           return (
             <div key={index} className="col-4 mb-3 ">
