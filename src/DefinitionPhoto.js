@@ -6,7 +6,7 @@ export default function DefinitionPhoto(props) {
       <div className="DefinitionPhoto row ms-3 me-3 mt-3 mb-3">
         {props.photos.map(function (photo, index) {
           return (
-            <div key={index} className="col-4 mb-3 ">
+            <div key={index} className=" col-sm-4 mb-3 ">
               <a href={photo.src.original} target="_blank" rel="noreferrer">
                 <img
                   src={photo.src.landscape}
