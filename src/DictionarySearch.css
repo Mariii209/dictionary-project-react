@@ -18,14 +18,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a9ecf3;
+  background-color: #605757;
   padding: 30px;
 }
 
 .SearchSection .SearchBar {
   padding: 10px 15px;
   border-radius: 25px;
-  border: 2px solid #53dae7;
+  border: none;
   outline: none;
   width: 300px;
   font-size: 16px;
@@ -41,7 +41,7 @@
   border-radius: 10px;
   border-radius: 25px;
   font-weight: 600;
-  border: 2px solid #53dae7;
+  border: none;
   box-shadow: 0 0 10px rgba(83, 218, 231, 0.2);
   background-color: white;
 }
