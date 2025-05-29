@@ -23,7 +23,13 @@ export default function DictionarySearch() {
     event.preventDefault();
     const apiKey = "7f30420fc505ct92a4f1o960ab77843b";
     const api = `https://api.shecodes.io/dictionary/v1/define?word=${searchInput}&key=${apiKey}`;
-    axios.get(api).then(fetchWord);
+    axios.get(api).then((response) => {
+      if (response.data && response.data.definition) {
+        fetchWord(response);
+      } else {
+        alert("❌ Word not found. Please try again.");
+      }
+    });
 
     const pexelsApiKey =
       "WsWu1zSPVbqyBDYCsFuOOeeEqElj7K2aXbHh9ikHnfRhVWIywFEGmrIx";
