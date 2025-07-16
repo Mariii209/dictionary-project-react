@@ -9,7 +9,7 @@ export default function DefinitionDisplay(props) {
   }
   return (
     <div className="DefinitionDisplay">
-      <h1>{props.result.word}</h1>
+      <h2>{props.result.word}</h2>
       <p className="Phonetic">{props.result.phonetic}</p>
       <hr />
       {props.result.meanings.slice(0, 3).map(function (meaning, index) {

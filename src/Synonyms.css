@@ -1,6 +1,7 @@
 .Synonyms li {
   list-style-type: none;
   display: inline-block;
+  font-size: 12px;
 }
 
 li:not(:last-child)::after {

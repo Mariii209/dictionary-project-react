@@ -2,35 +2,61 @@
   margin: 0 auto;
 }
 
-.SearchEngine {
-  margin-bottom: 30px;
-}
-
-.WordBank {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 70px 0;
-  font-family: "Montserrat", sans-serif;
-}
-
 .SearchSection {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #605757;
+  background-color: #f9fafb;
   padding: 30px;
 }
 
+.WordBank {
+  color: #101828;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 15px 0 22px;
+}
+
+.SearchSection p {
+  color: #4a5565;
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.SearchEngine {
+  margin-bottom: 30px;
+  max-width: 450px;
+  width: 100%;
+  position: relative;
+}
+
+.SearchEngine .Search {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  color: #717182;
+}
+
 .SearchSection .SearchBar {
-  padding: 10px 15px;
-  border-radius: 25px;
+  border-radius: 7px;
+  background: #f3f3f5;
+  color: #717182;
+  height: 38px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 9px 15px 9px 37px;
   border: none;
+  width: 100%;
   outline: none;
-  width: 300px;
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(83, 218, 231, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .SearchSection .SearchSubmit {

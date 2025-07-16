@@ -80,7 +80,9 @@ export default function DictionarySearch() {
         <div>
           <h1 className="WordBank">Word Bank</h1>
         </div>
+        <p>Explore words, definitions, and their visual representations</p>
         <form className="SearchEngine" onSubmit={handleSearch}>
+          <i class="fa-solid fa-magnifying-glass Search"></i>
           <input
             className="SearchBar"
             type="search"
@@ -88,7 +90,6 @@ export default function DictionarySearch() {
             placeholder="Search a word...."
             onChange={handleInputChange}
           />
-          <input type="submit" value="Search" className="SearchSubmit" />
         </form>
       </div>
       <DefinitionDisplay result={result} />
