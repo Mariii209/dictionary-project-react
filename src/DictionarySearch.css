@@ -84,11 +84,6 @@
     flex-wrap: nowrap;
   }
 
-  .SearchSection .SearchBar {
-    width: 65vw;
-    min-width: 0;
-  }
-
   .SearchSection .SearchSubmit {
     width: 70px;
     margin-left: 5px;
