@@ -82,7 +82,7 @@ export default function DictionarySearch() {
         </div>
         <p>Explore words, definitions, and their visual representations</p>
         <form className="SearchEngine" onSubmit={handleSearch}>
-          <i class="fa-solid fa-magnifying-glass Search"></i>
+          <i className="fa-solid fa-magnifying-glass Search"></i>
           <input
             className="SearchBar"
             type="search"
