@@ -78,7 +78,7 @@ export default function DictionarySearch() {
     <div className="DictionarySearch">
       <div className="SearchSection">
         <div>
-          <h1 className="WordBank">Word Bank</h1>
+          <h1 className="WordBank">Dictionary</h1>
         </div>
         <p>Explore words, definitions, and their visual representations</p>
         <form className="SearchEngine" onSubmit={handleSearch}>
